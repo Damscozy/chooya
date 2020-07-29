@@ -3088,7 +3088,7 @@
 	transform: matrix(1,0,0,1,0,0);
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Landing_Page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 }
 #Path_259 {
