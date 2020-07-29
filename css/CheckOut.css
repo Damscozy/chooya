@@ -1,0 +1,141 @@
+.mediaViewInfo {
+	--web-view-name: CheckOut;
+	--web-view-id: CheckOut;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: CheckOut;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#CheckOut {
+	position: absolute;
+	width: 756px;
+	height: 639px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: CheckOut;
+	--web-view-id: CheckOut;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Transaction_Successful {
+	left: 210px;
+	top: 400px;
+	position: absolute;
+	overflow: visible;
+	width: 337px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(253,103,91,1);
+	text-transform: capitalize;
+}
+#close_bim {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 673px;
+	top: 55px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+}
+#Ellipse_98_bin {
+	fill: rgba(253,103,91,1);
+}
+.Ellipse_98_bin {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#close_bio {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.699999988079071px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.close_bio {
+	overflow: visible;
+	position: absolute;
+	width: 11.547px;
+	height: 11.547px;
+	left: 9.5px;
+	top: 9.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#check {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 278px;
+	top: 150px;
+	overflow: visible;
+}
+#Ellipse_103 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,239,24,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_103 {
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+}
+#ic_check_24px_bir {
+	fill: rgba(0,239,24,1);
+	stroke: rgba(0,239,24,1);
+	stroke-width: 2.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ic_check_24px_bir {
+	overflow: visible;
+	position: absolute;
+	width: 132.09px;
+	height: 101.295px;
+	left: 35.5px;
+	top: 50.5px;
+	transform: matrix(1,0,0,1,0,0);
+}

@@ -1,0 +1,198 @@
+.mediaViewInfo {
+	--web-view-name: Overlay Board;
+	--web-view-id: Overlay_Board;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: Overlay_Board;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Overlay_Board {
+	position: absolute;
+	width: 345px;
+	height: 768px;
+	background-color: rgba(247,245,239,1);
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: Overlay Board;
+	--web-view-id: Overlay_Board;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Home_bd {
+	left: 30px;
+	top: 104px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Landing_Page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#Collections_be {
+	left: 30px;
+	top: 169px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 45px;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#Trade_Hub_bf {
+	left: 30px;
+	top: 234px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 45px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#Services_bg {
+	left: 30px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	height: 45px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#About_bh {
+	left: 30px;
+	top: 364px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#FAQs_bi {
+	left: 30px;
+	top: 429px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#Request_Invoice {
+	left: 30px;
+	top: 559px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: product___rfq.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#Contact_Us_bk {
+	left: 30px;
+	top: 494px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 45px;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(253,103,91,1);
+}
+#icon-_bl {
+	position: absolute;
+	width: 18.94px;
+	height: 18.94px;
+	left: 305.542px;
+	top: 23px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Shape_bm {
+	fill: rgba(253,103,91,1);
+}
+.Shape_bm {
+	overflow: visible;
+	position: absolute;
+	width: 18.939px;
+	height: 18.94px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}

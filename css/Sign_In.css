@@ -1,0 +1,363 @@
+.mediaViewInfo {
+	--web-view-name: Sign In;
+	--web-view-id: Sign_In;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Sign_In;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Sign_In {
+	position: absolute;
+	width: 998px;
+	height: 558px;
+	overflow: hidden;
+	--web-view-name: Sign In;
+	--web-view-id: Sign_In;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_15885_c {
+	position: absolute;
+	width: 1000px;
+	height: 558px;
+	left: -2px;
+	top: 0px;
+	overflow: visible;
+}
+#Card_Base_d {
+	fill: rgba(255,255,255,1);
+}
+.Card_Base_d {
+	filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.031));
+	overflow: visible;
+	position: absolute;
+	width: 1060px;
+	height: 618px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_15858_e {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 947px;
+	top: 45px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Ellipse_98_f {
+	fill: rgba(253,103,91,1);
+}
+.Ellipse_98_f {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#close_g {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.699999988079071px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.close_g {
+	overflow: visible;
+	position: absolute;
+	width: 11.547px;
+	height: 11.547px;
+	left: 9.5px;
+	top: 9.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_15891 {
+	position: absolute;
+	width: 759px;
+	height: 388px;
+	left: 101px;
+	top: 102px;
+	overflow: visible;
+}
+#Card_Base_i {
+	filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.031));
+	position: absolute;
+	width: 321px;
+	height: 388px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_15879 {
+	position: absolute;
+	width: 272px;
+	height: 297px;
+	left: 487px;
+	top: 48px;
+	overflow: visible;
+}
+#Group_15867 {
+	position: absolute;
+	width: 272px;
+	height: 137px;
+	left: 0px;
+	top: 49px;
+	overflow: visible;
+}
+#Group_6_l {
+	position: absolute;
+	width: 272px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Username {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(140,152,169,1);
+	text-transform: capitalize;
+}
+#Group_3_n {
+	position: absolute;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+}
+#Rectangle_o {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(224,231,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 100;
+	shape-rendering: auto;
+}
+.Rectangle_o {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#Abraham_Zack_p {
+	left: 13px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	height: 18px;
+	line-height: 18px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(46,56,77,1);
+}
+#Group_5_q {
+	position: absolute;
+	width: 272px;
+	height: 63px;
+	left: 0px;
+	top: 74px;
+	overflow: visible;
+}
+#Password {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(140,152,169,1);
+	text-transform: capitalize;
+}
+#Group_2_s {
+	position: absolute;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+}
+#Rectangle_t {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(224,231,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 100;
+	shape-rendering: auto;
+}
+.Rectangle_t {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#_________ {
+	left: 13px;
+	top: 13px;
+	position: absolute;
+	overflow: hidden;
+	width: 183px;
+	height: 18px;
+	line-height: 18px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(46,56,77,1);
+}
+#Forgot_Password {
+	left: 0px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(140,152,169,1);
+	text-transform: capitalize;
+}
+#Group_15870 {
+	position: absolute;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 231px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+}
+#Rectangle_c {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_c {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#login {
+	left: 117px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Sign_In_z {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(46,56,77,1);
+}
+#Not_yet_a_user_Sign_Up {
+	left: 73px;
+	top: 281px;
+	position: absolute;
+	overflow: hidden;
+	width: 128px;
+	height: 16px;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Onboarding_Sign_up_Personal.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Chooya_a {
+	left: 58px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(253,103,91,1);
+	text-transform: capitalize;
+}

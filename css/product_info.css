@@ -1,0 +1,529 @@
+.mediaViewInfo {
+	--web-view-name: product-info;
+	--web-view-id: product-info;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: product-info;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#product-info {
+	position: absolute;
+	width: 942px;
+	height: 747px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: product-info;
+	--web-view-id: product-info;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#view_cart {
+	left: 400px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	height: 41px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+}
+#cardbase {
+	position: absolute;
+	width: 882px;
+	height: 593.5px;
+	left: 30px;
+	top: 77px;
+	overflow: visible;
+}
+#Rectangle_5_byw {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_byw {
+	filter: drop-shadow(0px 3px 36px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 990px;
+	height: 701px;
+	left: 0px;
+	top: 0px;
+}
+#discount_byx {
+	position: absolute;
+	width: 144px;
+	height: 41px;
+	left: 658px;
+	top: 9px;
+	overflow: visible;
+}
+#Rectangle_156_byy {
+	fill: rgba(243,232,232,1);
+}
+.Rectangle_156_byy {
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	height: 41px;
+	left: 0px;
+	top: 0px;
+}
+#Path_153_byz {
+	fill: rgba(253,103,91,1);
+}
+.Path_153_byz {
+	overflow: visible;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 6.896px;
+	top: 7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID10_Off_by {
+	left: 59px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	height: 23px;
+	line-height: 30px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#clothes_by {
+	position: absolute;
+	width: 346px;
+	height: 351px;
+	left: 496px;
+	top: 101px;
+	overflow: visible;
+}
+#info_by {
+	position: absolute;
+	width: 220px;
+	height: 168px;
+	left: 105px;
+	top: 100px;
+	overflow: visible;
+}
+#Pink_Spoonbill_Sweatpants_by {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 221px;
+	height: 103px;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#ID3400_by {
+	left: 59px;
+	top: 85px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	height: 34px;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#Printed_Sweatpants_by {
+	left: 52px;
+	top: 123px;
+	position: absolute;
+	overflow: hidden;
+	width: 117px;
+	height: 45px;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#There_is_100_money-back_guaran {
+	left: 85px;
+	top: 382px;
+	position: absolute;
+	overflow: visible;
+	width: 349px;
+	height: 191px;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#add-to-cart_by {
+	position: absolute;
+	width: 154px;
+	height: 42px;
+	left: 648px;
+	top: 469px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: added_to_cart.html;
+	cursor: pointer;
+}
+#Rectangle_160_by {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_160_by {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 172px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#Add_to_Cart {
+	left: 19px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 23px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.4px;
+}
+#requestinvoice {
+	position: absolute;
+	width: 188px;
+	height: 42px;
+	left: 614px;
+	top: 531px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: negotiate___rfi.html;
+	cursor: pointer;
+}
+#Rectangle_160_bzb {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_160_bzb {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 206px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#REQUEST_INVOICE {
+	left: 23px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	height: 23px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.4px;
+}
+#Back-to-shopping_bzd {
+	position: absolute;
+	width: 239px;
+	height: 29px;
+	left: 85px;
+	top: 21px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+}
+#Back_to_Shopping_bze {
+	left: 37px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 29px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}
+#Path_4_bzf {
+	fill: transparent;
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_4_bzf {
+	overflow: visible;
+	position: absolute;
+	width: 17.859px;
+	height: 10.414px;
+	left: 0px;
+	top: 9.821px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_213 {
+	opacity: 0.4;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_213 {
+	overflow: visible;
+	position: absolute;
+	width: 296px;
+	height: 1px;
+	left: 85px;
+	top: 357px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_214 {
+	opacity: 0.4;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_214 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 594px;
+	left: 441.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#counter_bzi {
+	position: absolute;
+	width: 128px;
+	height: 42px;
+	left: 136px;
+	top: 297px;
+	overflow: visible;
+}
+#Rectangle_167 {
+	fill: transparent;
+	stroke: rgba(224,231,255,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_167 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#IconlyLightPlus_bzk {
+	opacity: 0.4;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 92px;
+	top: 13px;
+	overflow: visible;
+}
+#Plus_bzl {
+	position: absolute;
+	width: 13.333px;
+	height: 13.333px;
+	left: 1.333px;
+	top: 1.333px;
+	overflow: visible;
+}
+#Line_185_bzm {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Line_185_bzm {
+	overflow: visible;
+	position: absolute;
+	width: 1.5px;
+	height: 6.384px;
+	left: 6.667px;
+	top: 4.218px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_186_bzn {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Line_186_bzn {
+	overflow: visible;
+	position: absolute;
+	width: 6.389px;
+	height: 1.5px;
+	left: 4.222px;
+	top: 6.66px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_bzo {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_bzo {
+	overflow: visible;
+	position: absolute;
+	width: 14.833px;
+	height: 14.833px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#IconlyLightMinus_bzp {
+	opacity: 0.4;
+	position: absolute;
+	width: 13.333px;
+	height: 13.333px;
+	left: 18px;
+	top: 14.333px;
+	overflow: visible;
+}
+#Minus_bzq {
+	position: absolute;
+	width: 13.333px;
+	height: 13.333px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Line_186_bzr {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Line_186_bzr {
+	overflow: visible;
+	position: absolute;
+	width: 6.389px;
+	height: 1.5px;
+	left: 4.222px;
+	top: 6.66px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_bzs {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(38,47,86,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_bzs {
+	overflow: visible;
+	position: absolute;
+	width: 14.833px;
+	height: 14.833px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID2_bzt {
+	left: 56px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 22px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(38,47,86,1);
+	letter-spacing: 0.4px;
+}

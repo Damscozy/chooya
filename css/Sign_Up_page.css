@@ -1,0 +1,344 @@
+.mediaViewInfo {
+	--web-view-name: Sign Up page;
+	--web-view-id: Sign_Up_page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: Sign_Up_page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Sign_Up_page {
+	position: absolute;
+	width: 998px;
+	height: 558px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: Sign Up page;
+	--web-view-id: Sign_Up_page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Signup {
+	position: absolute;
+	width: 1000px;
+	height: 558px;
+	left: -2px;
+	top: 0px;
+	overflow: visible;
+}
+#Card_Base_p {
+	fill: rgba(255,255,255,1);
+}
+.Card_Base_p {
+	filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.031));
+	position: absolute;
+	overflow: visible;
+	width: 470px;
+	height: 618px;
+	left: 590px;
+	top: 0px;
+}
+#Card_Base_q {
+	fill: rgba(255,255,255,1);
+}
+.Card_Base_q {
+	filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.031));
+	overflow: visible;
+	position: absolute;
+	width: 1060px;
+	height: 618px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_15858_r {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 947px;
+	top: 45px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Ellipse_98_s {
+	fill: rgba(253,103,91,1);
+}
+.Ellipse_98_s {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#close_t {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.699999988079071px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.close_t {
+	overflow: visible;
+	position: absolute;
+	width: 11.547px;
+	height: 11.547px;
+	left: 9.5px;
+	top: 9.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_23 {
+	position: absolute;
+	width: 425px;
+	height: 304px;
+	left: 288.093px;
+	top: 125px;
+	overflow: visible;
+}
+#Already_have_an_account_Sign_I_v {
+	left: 123.907px;
+	top: 287px;
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Sign_In.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(140,152,169,1);
+	text-transform: capitalize;
+}
+#Group_7_w {
+	position: absolute;
+	width: 272.093px;
+	height: 40.5px;
+	left: 76.907px;
+	top: 215px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Onboarding_Sign_up_Acc.html;
+}
+#Rectangle_y {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_y {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0.093px;
+	top: 0px;
+}
+#Rectangle_z {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_z {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 0.5px;
+}
+#SIGN_UP_AS_A_SELLER {
+	left: 77px;
+	top: 11.5px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Group_15888 {
+	position: absolute;
+	width: 272.093px;
+	height: 40.5px;
+	left: 76.907px;
+	top: 135px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Onboarding_Sign_up_Personal.html;
+}
+#Rectangle_ {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_ {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0.093px;
+	top: 0px;
+}
+#Rectangle_a {
+	fill: rgba(253,103,91,1);
+}
+.Rectangle_a {
+	position: absolute;
+	overflow: visible;
+	width: 272px;
+	height: 40px;
+	left: 0px;
+	top: 0.5px;
+}
+#SIGN_UP_AS_A_BUYER {
+	left: 78px;
+	top: 11.5px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Group_17_ {
+	position: absolute;
+	width: 425px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_92 {
+	position: absolute;
+	width: 425px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Yet_to_join_the_all-inclusive_ {
+	opacity: 0.66;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 426px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,56,77,1);
+}
+#Line_4_ {
+	fill: transparent;
+	stroke: rgba(224,231,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4_ {
+	overflow: visible;
+	position: absolute;
+	width: 155px;
+	height: 1px;
+	transform: translate(-0.5px, 4px) matrix(1,0,0,1,135.4067,30) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Sign_up__ {
+	left: 164px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(46,56,77,1);
+}
+#Chooya_ {
+	left: 60px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(253,103,91,1);
+	text-transform: capitalize;
+}

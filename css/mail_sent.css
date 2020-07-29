@@ -1,0 +1,141 @@
+.mediaViewInfo {
+	--web-view-name: mail-sent;
+	--web-view-id: mail-sent;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: mail-sent;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#mail-sent {
+	position: absolute;
+	width: 564px;
+	height: 372px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: mail-sent;
+	--web-view-id: mail-sent;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Mail_sent {
+	left: 217px;
+	top: 219px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(253,103,91,1);
+	text-transform: capitalize;
+}
+#close_b {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 498px;
+	top: 52px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+}
+#Ellipse_98_b {
+	fill: rgba(253,103,91,1);
+}
+.Ellipse_98_b {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#close_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.699999988079071px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.close_ba {
+	overflow: visible;
+	position: absolute;
+	width: 11.547px;
+	height: 11.547px;
+	left: 9.5px;
+	top: 9.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#check_b {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 263px;
+	top: 166px;
+	overflow: visible;
+}
+#Ellipse_103_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,239,24,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_103_ba {
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#ic_check_24px_bb {
+	fill: rgba(0,239,24,1);
+	stroke: rgba(0,239,24,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ic_check_24px_bb {
+	overflow: visible;
+	position: absolute;
+	width: 26.429px;
+	height: 20.386px;
+	left: 7.344px;
+	top: 10.287px;
+	transform: matrix(1,0,0,1,0,0);
+}
